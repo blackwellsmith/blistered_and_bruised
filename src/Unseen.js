@@ -7,7 +7,7 @@ export const Unseen = () => (
       <Layout>
         <h2>My thoughts in written word</h2>
         <hr />
-        <h3>Thoughht 1: All My Clothes Are Piled in the Place You Would've Slept</h3>
+        <h3>Thought 1: All My Clothes Are Piled in the Place You Would've Slept</h3>
         <br></br>
         <div>All my clothes are piled in the</div>
         <div>place you would have</div>

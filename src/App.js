@@ -21,7 +21,7 @@ function App() {
           </Switch>
       </Router>
       <div>
-        <audio src={MySound} autoPlay loop />
+        <audio src={MySound} controls />
       </div>
     </React.Fragment>
   );

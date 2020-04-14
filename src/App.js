@@ -4,8 +4,8 @@ import { Home } from "./Home"
 import { Unseen } from "./Unseen"
 import { Seen } from "./Seen"
 import { NoMatch } from "./NoMatch"
-import { MainSound } from "./assets/sounds/mainSound.mp3"
-import ReactAudioPlayer from 'react-audio-player'
+
+import MySound from './sound'
 import { NavBar } from "./NavBar"
 import './App.css';
 
@@ -21,9 +21,7 @@ function App() {
             <Route component={NoMatch} />
           </Switch>
       </Router>
-      <div>
-        <audio src={MainSound} controls autoPlay/>
-      </div>
+      <MySound />
     </React.Fragment>
   );
 }

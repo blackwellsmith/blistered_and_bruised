@@ -21,7 +21,9 @@ function App() {
             <Route component={NoMatch} />
           </Switch>
       </Router>
-      <MySound />
+      <div>
+        <audio src="./assets/sounds/mainSound.mp3" controls autoPlay />
+      </div>
     </React.Fragment>
   );
 }

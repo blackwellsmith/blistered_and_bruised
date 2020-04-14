@@ -4,7 +4,7 @@ import { Home } from "./Home"
 import { Unseen } from "./Unseen"
 import { Seen } from "./Seen"
 import { NoMatch } from "./NoMatch"
-import MySound from './sound'
+import MySound from "./assets/sounds/mainSound.mp3"
 import { NavBar } from "./NavBar"
 import './App.css';
 
@@ -21,7 +21,7 @@ function App() {
           </Switch>
       </Router>
       <div>
-        <audio src="./assets/sounds/mainSound.mp3" autoPlay loop />
+        <audio src={MySound} autoPlay loop />
       </div>
     </React.Fragment>
   );

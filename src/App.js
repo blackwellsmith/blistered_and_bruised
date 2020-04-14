@@ -22,7 +22,7 @@ function App() {
           </Switch>
       </Router>
       <div>
-        <ReactAudioPlayer src={MainSound}  autoPlay controls loop/>
+        <ReactAudioPlayer ref="audio_tag" src={MainSound} controls autoPlay/>
       </div>
     </React.Fragment>
   );

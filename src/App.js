@@ -23,7 +23,7 @@ function App() {
         </Router>
       </React.Fragment>  
       <div>
-        <audio src={MySound} preload="auto" style="width: 200px;" controls autoPlay loop />
+        <audio src={MySound} preload="auto" controls autoPlay loop />
       </div>
     </React.Fragment>
   );

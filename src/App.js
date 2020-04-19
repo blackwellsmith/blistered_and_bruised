@@ -6,6 +6,7 @@ import { Seen } from "./Seen"
 import { NoMatch } from "./NoMatch"
 import MySound from "./assets/sounds/mainSound.mp3"
 import { NavBar } from "./NavBar"
+import { Audio } from "./Audio"
 import './App.css';
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
         <Router>
           <Switch>
             <Route exact path="/" component={Home} />
+            <Route exact path="/audio" component={Audio} />
             <Route exact path="/seen" component={Seen} />
             <Route exact path="/unseen" component={Unseen} />
             <Route component={NoMatch} />

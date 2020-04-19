@@ -8,11 +8,6 @@ import MySound from "./assets/sounds/mainSound.mp3"
 ReactDOM.render(
   <React.StrictMode>
     <App />
-    <React.Fragment>
-      <div>
-        <audio src={MySound} preload="auto" controls autoPlay loop />
-      </div>
-    </React.Fragment>
   </React.StrictMode>,
   document.getElementById('root')
 );

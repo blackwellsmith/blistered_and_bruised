@@ -3,6 +3,7 @@ import { Layout } from "./Layout"
 import MySound from "./assets/sounds/mainSound.mp3"
 import Hart from "./assets/sounds/hartIsland.mp3"
 import Droney from "./assets/sounds/droney.mp3"
+import ButtonToolbar from 'react-bootstrap/ButtonToolbar'
 
 export const Audio = () => (
     <div className="Audio">

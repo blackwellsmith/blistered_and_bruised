@@ -12,14 +12,16 @@ export const Audio = () => (
         <h2>Feel free to make some noise</h2>
       </div>
       <ButtonToolbar className="bt">
+        <div>
           <div>
             <audio src={MySound} preload="auto" controls loop /><p>Song</p>
           </div>
           <div>
-            <audio src={Hart} preload="auto" controls loop /><p>Hart Island story time</p>
+            <audio src={Hart} preload="auto" controls loop /><p>Hart Island</p>
           </div>
           <div>
             <audio src={Droney} preload="auto" controls autoPlay loop /><p>Frikkle</p>
+          </div>
           </div>
           </ButtonToolbar>
         </Layout>    

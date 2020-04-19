@@ -3,8 +3,7 @@ import MySound from "./assets/sounds/mainSound.mp3"
 import Hart from "./assets/sounds/hartIsland.mp3"
 import Droney from "./assets/sounds/droney.mp3"
 
-function Audio(){
-    return (
+export const Audio = () => (
       <div className="Audio">
         <div>
           <audio src={MySound} preload="auto" controls autoPlay loop />
@@ -17,5 +16,4 @@ function Audio(){
         </div>
       </div>       
    )
-}
-export default Audio;
+

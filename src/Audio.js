@@ -6,8 +6,12 @@ import Droney from "./assets/sounds/droney.mp3"
 
 export const Audio = () => (
     <div className="Audio">
-        <Layout>
-          <div className="Audio">
+      <Layout>
+      <div className="layout">
+        <h2>Feel free to make some noise</h2>
+      </div>
+      <ButtonToolbar className="bt">
+          <div>
             <audio src={MySound} preload="auto" controls loop /><p>Song</p>
           </div>
           <div>
@@ -16,6 +20,7 @@ export const Audio = () => (
           <div>
             <audio src={Droney} preload="auto" controls autoPlay loop /><p>Frikkle</p>
           </div>
+          </ButtonToolbar>
         </Layout>    
       </div>       
    )

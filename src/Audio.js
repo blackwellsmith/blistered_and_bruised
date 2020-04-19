@@ -7,7 +7,7 @@ import Droney from "./assets/sounds/droney.mp3"
 export const Audio = () => (
     <div className="Audio">
         <Layout>
-          <div>
+          <div className="Audio">
             <audio src={MySound} preload="auto" controls loop /><p>Song</p>
           </div>
           <div>

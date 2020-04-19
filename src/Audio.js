@@ -10,21 +10,22 @@ export const Audio = () => (
       <Layout>
       <div className="layout">
         <h2>Feel free to make some noise</h2>
-      </div>
-      <ButtonToolbar className="bt">
-        <div>
+        </div>
+        <ButtonToolbar className="bt">
           <div>
-            <audio src={MySound} preload="auto" controls loop /><p>Song</p>
+            <div>
+              <audio src={MySound} preload="auto" controls loop /><p>Song</p>
+            </div>
+            <div>
+              <audio src={Hart} preload="auto" controls loop /><p>Hart Island</p>
+            </div>
+            <div>
+              <audio src={Droney} preload="auto" controls autoPlay loop /><p>Frikkle</p>
+            </div>
           </div>
-          <div>
-            <audio src={Hart} preload="auto" controls loop /><p>Hart Island</p>
-          </div>
-          <div>
-            <audio src={Droney} preload="auto" controls autoPlay loop /><p>Frikkle</p>
-          </div>
-          </div>
-          </ButtonToolbar>
-        </Layout>    
+        </ButtonToolbar>
+        <p>Sound by Chris Cohen</p>
+      </Layout>    
       </div>       
    )
 

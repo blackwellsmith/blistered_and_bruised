@@ -32,7 +32,7 @@ export const Seen = () => (
             <Image className="Image" src={Screwball} rounded />
             <Image className="Image" src={Unknown} rounded />
             </ButtonToolbar>   
-            <p>Blah blah art from the Chris Cohen Collection Baton Rouge, LA</p>
+            <p>The Chris Cohen Collection Baton Rouge, LA</p>
         
        
         </Layout>

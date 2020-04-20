@@ -8,24 +8,24 @@ import { Layout } from "./Layout"
 export const Home = () => (
     <div className="Home">
         <Layout>
-        <h2>Are you Bruised?</h2>
-        <p>Everyone has a story.</p>
+        <h2>What do you do?</h2>
+        <p>Call poison control.</p>
         <Row> 
         <Col xs={6} md={2}>    
-        <p>blah</p>
-        <p>blah</p>
-        <p>blah</p>
-        <p>blah</p>
-        <p>blah</p>
-        <p>blah</p>
-        <p>blah</p>
+        <p></p>
+        <p></p>
+        <p></p>
+        <p></p>
+        <p></p>
+        <p></p>
+        <p></p>
         </Col> 
         <Col xs={6} md={2}> 
         <br></br>            
         <div><Image className="circle" src={Chris} roundedCircle /></div>
         </Col>            
         </Row> 
-        <div>What is yours?</div>
+        <div>1-800-222-1222</div>
         <br></br>    
         </Layout>
     </div>

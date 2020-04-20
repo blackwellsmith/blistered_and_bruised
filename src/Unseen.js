@@ -76,7 +76,7 @@ export const Unseen = () => (
     <br/>
     <div className="Unseen">
     <Layout>
-      <div>thoughts by Chris Cohen Baton Rouge, LA</div>
+      <div>Thoughts by Chris Cohen Baton Rouge, LA</div>
     </Layout>
     </div>
     </>

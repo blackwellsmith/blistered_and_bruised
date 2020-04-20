@@ -22,15 +22,15 @@ export const Seen = () => (
             </div>
             <ButtonToolbar className="bt">
             <div className="ImageContainer"><Image className="ImageLong" src={Mouth} rounded /></div>
-            <Image className="ImageLong" src={Face} rounded />
-            <Image className="ImageLong" src={Ear} rounded />
-            <Image className="ImageLong" src={Heart} rounded />
-            <Image className="ImageLong" src={Afro} rounded />
-            <Image className="ImageLong" src={Horn} rounded />
-            <Image className="Image" src={HeartSquare} rounded />
-            <Image className="Image" src={Commodity} rounded />
-            <Image className="Image" src={Screwball} rounded />
-            <Image className="Image" src={Unknown} rounded />
+            <div className="ImageContainer"><Image className="ImageLong" src={Face} rounded /></div>
+            <div className="ImageContainer"><Image className="ImageLong" src={Ear} rounded /></div>
+            <div className="ImageContainer"><Image className="ImageLong" src={Heart} rounded /></div>
+            <div className="ImageContainer"><Image className="ImageLong" src={Afro} rounded /></div>
+            <div className="ImageContainer"><Image className="ImageLong" src={Horn} rounded /></div>
+            <div className="ImageContainer2"><Image className="Image" src={HeartSquare} rounded /></div>
+            <div className="ImageContainer2"><Image className="Image" src={Commodity} rounded /></div>
+            <div className="ImageContainer2"><Image className="Image" src={Screwball} rounded /></div>
+            <div className="ImageContainer2"><Image className="Image" src={Unknown} rounded /></div>
             </ButtonToolbar>   
             <p>The Chris Cohen Collection Baton Rouge, LA</p>
         

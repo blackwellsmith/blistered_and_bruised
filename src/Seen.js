@@ -36,6 +36,7 @@ export const Seen = () => (
             <div className="ImageContainer2"><Image className="Image" src={Screwball} rounded /></div>
             <div className="ImageContainer2"><Image className="Image" src={Unknown} rounded /></div>
             </Col> 
+            </Row>
             </ButtonToolbar>   
             <p>The Chris Cohen Collection Baton Rouge, LA</p>
         

@@ -24,7 +24,7 @@ export const Audio = () => (
             </div>
           </div>
         </ButtonToolbar>
-        <p>Someones Been Poisoned <a href="https://soundcloud.com/christuco"><img src="https://www.google.com/imgres?imgurl=https%3A%2F%2Fcdn.worldvectorlogo.com%2Flogos%2Fsoundcloud.svg&imgrefurl=https%3A%2F%2Fworldvectorlogo.com%2Flogo%2Fsoundcloud&tbnid=I7trRazQT5equM&vet=12ahUKEwiWvKrBnPfoAhUKQ1MKHV7MBK8QMygBegUIARCYAg..i&docid=6TpAS8XM3S-wkM&w=2500&h=1425&q=soundcloud%20logo&ved=2ahUKEwiWvKrBnPfoAhUKQ1MKHV7MBK8QMygBegUIARCYAg"/></a></p>
+        <p>Someones Been Poisoned <a href="https://soundcloud.com/christuco"><img src="https://connect.soundcloud.com/2/btn-connect-sc-s.png"/></a></p>
         <p>Sound by Chris Cohen</p>
       </Layout>    
       </div>       

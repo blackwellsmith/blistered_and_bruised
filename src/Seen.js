@@ -24,7 +24,6 @@ export const Seen = () => (
             </div>
             
             <Row className="justify-content-md-center"> 
-            <Col xs={6} md={2}><p></p></Col>
             <Col xs={6} md={2}>    
             <div className="ImageContainer"><Image className="ImageLong" src={Mouth} rounded /></div>
             <div className="ImageContainer"><Image className="ImageLong" src={Face} rounded /></div>
@@ -36,7 +35,8 @@ export const Seen = () => (
             <div className="ImageContainer2"><Image className="Image" src={Commodity} rounded /></div>
             <div className="ImageContainer2"><Image className="Image" src={Screwball} rounded /></div>
             <div className="ImageContainer2"><Image className="Image" src={Unknown} rounded /></div>
-            </Col> 
+            </Col>
+            <Col xs={6} md={2}><p></p></Col>
             </Row>
               
             <p>The Chris Cohen Collection Baton Rouge, LA</p>

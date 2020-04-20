@@ -42,6 +42,11 @@ html, .Home, .Seen, .Unseen, .Audio {
   margin-right: 20px
 }
 
+.ImageContainer > img:hover {
+  width: 600px;
+  height: 440px;
+}
+
 .ImageLong{
  
   height: 220px;

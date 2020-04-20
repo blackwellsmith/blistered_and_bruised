@@ -21,7 +21,7 @@ export const Seen = () => (
             <h3>They have been missing since before they appeared...</h3>
             </div>
             <ButtonToolbar className="bt">
-            <div><Image className="ImageLong" src={Mouth} rounded /></div>
+            <div className="ImageContainer"><Image className="ImageLong" src={Mouth} rounded /></div>
             <Image className="ImageLong" src={Face} rounded />
             <Image className="ImageLong" src={Ear} rounded />
             <Image className="ImageLong" src={Heart} rounded />

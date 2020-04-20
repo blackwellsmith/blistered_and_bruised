@@ -24,7 +24,7 @@ export const Seen = () => (
             </div>
             
             <Row> 
-            <Col xs={6} md={2}></Col>
+            <Col xs={6} md={2}><p></p></Col>
             <Col xs={6} md={2}>    
             <div className="ImageContainer"><Image className="ImageLong" src={Mouth} rounded /></div>
             <div className="ImageContainer"><Image className="ImageLong" src={Face} rounded /></div>

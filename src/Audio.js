@@ -1,6 +1,6 @@
 import React from 'react'
 import { Layout } from "./Layout"
-import BandCamp from ".assets/bandcamp.jpeg"
+import BandCamp from ".assets/bandcamp.jpg"
 import MySound from "./assets/sounds/mainSound.mp3"
 import Hart from "./assets/sounds/hartIsland.mp3"
 import Droney from "./assets/sounds/droney.mp3"

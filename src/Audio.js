@@ -26,6 +26,9 @@ export const Audio = () => (
             <div>
               <p>Someone's Been Poisoned <a href="https://soundcloud.com/christuco"><img src="https://connect.soundcloud.com/2/btn-connect-sc-s.png" /> </a><a href="https://someonesbeenpoisoned.bandcamp.com/releases"><img src={BandCamp} /></a></p>
             </div> 
+            <div>
+              <p>Musings and poetry available at <a href="https://www.blurb.com/b/5209096-sporadic-life-with-a-hint-of-lung-cancer">blurb</a></p>
+            </div>
             <div><p>Sound by Chris Cohen</p></div>
           </div>
         </ButtonToolbar>

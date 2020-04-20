@@ -23,10 +23,14 @@ export const Audio = () => (
             <div>
               <audio src={Droney} preload="auto" controls autoPlay loop /><p>Droney</p>
             </div>
+            <div>
+              <p>Someone's Been Poisoned <a href="https://soundcloud.com/christuco"><img src="https://connect.soundcloud.com/2/btn-connect-sc-s.png" /> </a><a href="https://someonesbeenpoisoned.bandcamp.com/releases"><img src={BandCamp} /></a></p>
+            </div> 
+            <div><p>Sound by Chris Cohen</p></div>
           </div>
         </ButtonToolbar>
-        <p>Someone's Been Poisoned <a href="https://soundcloud.com/christuco"><img src="https://connect.soundcloud.com/2/btn-connect-sc-s.png"/> </a><a href="https://someonesbeenpoisoned.bandcamp.com/releases"><img src={BandCamp} /></a></p>
-        <p>Sound by Chris Cohen</p>
+        
+        
       </Layout>    
       </div>       
    )

@@ -23,7 +23,7 @@ export const Seen = () => (
             <h3>They have been missing since before they appeared...</h3>
             </div>
             
-            <Row> 
+            <Row className="justify-content-md-center"> 
             <Col xs={6} md={2}><p></p></Col>
             <Col xs={6} md={2}>    
             <div className="ImageContainer"><Image className="ImageLong" src={Mouth} rounded /></div>

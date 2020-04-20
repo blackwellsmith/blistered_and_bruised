@@ -22,7 +22,7 @@ export const Seen = () => (
             <h2>Have you seen these people?</h2>
             <h3>They have been missing since before they appeared...</h3>
             </div>
-            <ButtonToolbar className="bt">
+            
             <Row> 
             <Col xs={6} md={2}>    
             <div className="ImageContainer"><Image className="ImageLong" src={Mouth} rounded /></div>
@@ -37,7 +37,7 @@ export const Seen = () => (
             <div className="ImageContainer2"><Image className="Image" src={Unknown} rounded /></div>
             </Col> 
             </Row>
-            </ButtonToolbar>   
+              
             <p>The Chris Cohen Collection Baton Rouge, LA</p>
         
        
